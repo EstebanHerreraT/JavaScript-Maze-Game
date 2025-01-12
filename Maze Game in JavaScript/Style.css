@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #maze-container {
+    margin: 20px auto;
+    display: grid;
+    gap: 2px;
+    background: #000;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    background: #eee;
+  }
+  
+  .wall {
+    background: #333;
+  }
+  
+  .pickle {
+    background: green;
+    border-radius: 50%;
+  }
+  
+  .end {
+    background: gold;
+  }
+  
+  .controls {
+    margin-bottom: 10px;
+  }
+  
+  .steps {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
